@@ -23,3 +23,29 @@ Data on exoplanets is public and available online (check the [link](http://exopl
 * Spark: Distributed Machine Leaning framework. 
 * Scala: Programming language used to submit jobs to Spark. 
 
+## How to run
+1) Load this repository on IntelliJ
+
+2) Build the project:
+```
+sbt assembly
+```
+3) Run the project 
+**Running the project**
+* Initial spark-submit command :
+```
+./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar
+```
+Add two arguments:
+* First argument: path of the cleanedData (also present in the repository). In my case:
+```
+/Desktop/BigData/SparkProject/cleanedDataFrame.csv
+```
+* Second argument: directory to save the output model. In my case:
+```
+~/Desktop/BigData/SparkProject/bestModelConf
+```
+**Final command** :
+```
+./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ~/Desktop/BigData/SparkProject/cleanedDataFrame.csv ~/Desktop/BigData/SparkProject/bestModelConf
+```
