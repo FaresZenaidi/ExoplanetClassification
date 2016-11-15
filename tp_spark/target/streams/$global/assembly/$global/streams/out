@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging '.DS_Store' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /Users/admin/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar[0m
