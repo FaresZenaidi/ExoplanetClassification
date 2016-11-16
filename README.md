@@ -31,8 +31,7 @@ Data on exoplanets is public and available online (check the [link](http://exopl
 sbt assembly
 ```
 3) Run the project 
-**Running the project**
-* Initial spark-submit command :
+* Initial spark-submit command:
 ```
 ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar
 ```
@@ -45,10 +44,10 @@ Add two arguments:
 ```
 ~/Desktop/BigData/SparkProject/bestModelConf
 ```
-**Final command** :
+Final command:
 ```
 ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ~/Desktop/BigData/SparkProject/cleanedDataFrame.csv ~/Desktop/BigData/SparkProject/bestModelConf
 ```
-## Contributors :
+## Contributors 
 * [Fares Zenaidi](https://github.com/FaresZenaidi)
 * [Hamid Amara](https://github.com/haa99)
