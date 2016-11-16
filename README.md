@@ -49,3 +49,6 @@ Add two arguments:
 ```
 ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ~/Desktop/BigData/SparkProject/cleanedDataFrame.csv ~/Desktop/BigData/SparkProject/bestModelConf
 ```
+## Contributors :
+* [Fares Zenaidi](https://github.com/FaresZenaidi)
+* [Hamid Amara](https://github.com/haa99)
