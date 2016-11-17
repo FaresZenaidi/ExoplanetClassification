@@ -2,9 +2,9 @@
 This repository was created to gather a project on exoplanets classification, developed for the Spark's course of the Big Data program at Telecom ParisTech. 
 
 ## Context
-**Objective**: Build a Binary Classifier of exoplanets labeled "confirmed" or "false-positive".
+**_bold Objective**: Build a Binary Classifier of exoplanets labeled "confirmed" or "false-positive".
 
-**Context**: Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life. 
+**_bold Context**: Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life. 
 
 They are detected in two steps:
 * A *Satellite* (Kepler) observes the stars and marks those whose luminosity curve shows a "hollow", which could indicate that a planet has passed (part of the light emitted by the star being obscured by the passage of the planet). This method of "transit" allows us to define candidate exoplanets, and to deduce the characteristics that the planet would have if it really existed (distance to its star, diameter, shape of its orbit, etc.).
