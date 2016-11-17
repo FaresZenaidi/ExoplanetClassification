@@ -1,8 +1,9 @@
 # ExoplanetClassification
-This repository was created to gather a practical work on exoplanets classification, developed for the Spark's course of the Big Data program at Telecom ParisTech. 
+This repository was created to gather a project on exoplanets classification, developed for the Spark's course of the Big Data program at Telecom ParisTech. 
 
 ## Context
 **Objective**: Build a Binary Classifier of exoplanets labeled "confirmed" or "false-positive".
+
 **Context**: Exoplanets are planets rotating around other stars than the Sun. Their study allows us to better understand how the solar system was formed, and a fraction of them could be conducive to the development of extraterrestrial life. 
 
 They are detected in two steps:
