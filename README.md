@@ -23,7 +23,7 @@ Data on exoplanets is public and available online (check the [link](http://exopl
 * Spark: Distributed Machine Leaning framework. 
 * Scala: Programming language used to submit jobs to Spark. 
 
-## How to run
+## Running configuration
 1) Load this repository on IntelliJ
 
 2) Build the project:
@@ -48,6 +48,23 @@ Final command:
 ```
 ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp" --driver-memory 3G --executor-memory 4G --class com.sparkProject.JobML ~/Desktop/BigData/SparkProject/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ~/Desktop/BigData/SparkProject/cleanedDataFrame.csv ~/Desktop/BigData/SparkProject/bestModelConf
 ```
+## Model performance  
+By running our model on the test data and generating predictions, the following confusion matrix  and accuracy score are obtained:
+<center>
+
+| Labels 	| Predictions 	| Count 	|
+|--------	|-------------	|-------	|
+| 1.0    	| 1.0         	| 205   	|
+| 0.0    	| 1.0         	| 18    	|
+| 1.0    	| 0.0         	| 10    	|
+| 0.0    	| 0.0         	| 387   	|
+
+</center>
+
+```
+Accuracy score = 0.9545219638242894
+```
+
 ## Contributors 
 * [Fares Zenaidi](https://github.com/FaresZenaidi)
 * [Hamid Amara](https://github.com/haa99)
